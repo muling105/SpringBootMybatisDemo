@@ -44,7 +44,6 @@ public class HttpAspect {
 
         //参数
         logger.info("args = {}", joinPoint.getArgs());
-
     }
 
     @After("log()")
