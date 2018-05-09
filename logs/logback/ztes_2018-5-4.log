@@ -1,0 +1,717 @@
+2018-5-4 10:41:52 main INFO Starting DemoApplication on ZTES-PC with PID 21124 (D:\IdeaProjects\springbootMybatisDemo\target\classes started by ZTES in D:\IdeaProjects\springbootMybatisDemo)
+2018-5-4 10:41:52 main DEBUG Running with Spring Boot v1.5.12.RELEASE, Spring v4.3.16.RELEASE
+2018-5-4 10:41:52 main INFO No active profile set, falling back to default profiles: default
+2018-5-4 10:41:55 main INFO Started DemoApplication in 3.49 seconds (JVM running for 6.004)
+2018-5-4 10:42:39 http-nio-8080-exec-1 DEBUG ==>  Preparing: insert into t_user (user_id, user_name, password, phone) values (?, ?, ?, ?) 
+2018-5-4 10:42:39 http-nio-8080-exec-1 DEBUG ==> Parameters: null, 陆小凤(String), 123456(String), 15612998910(String)
+2018-5-4 10:42:39 http-nio-8080-exec-1 DEBUG <==    Updates: 1
+2018-5-4 10:44:50 main INFO Starting DemoApplication on ZTES-PC with PID 17880 (D:\IdeaProjects\springbootMybatisDemo\target\classes started by ZTES in D:\IdeaProjects\springbootMybatisDemo)
+2018-5-4 10:44:50 main DEBUG Running with Spring Boot v1.5.12.RELEASE, Spring v4.3.16.RELEASE
+2018-5-4 10:44:50 main INFO No active profile set, falling back to default profiles: default
+2018-5-4 10:44:52 main INFO Started DemoApplication in 3.226 seconds (JVM running for 5.0)
+2018-5-4 10:45:17 http-nio-8080-exec-1 DEBUG ==>  Preparing: insert into t_user (user_id, user_name, password, phone) values (?, ?, ?, ?) 
+2018-5-4 10:45:17 http-nio-8080-exec-1 DEBUG ==> Parameters: null, 鸾小平(String), 123456(String), 15612998910(String)
+2018-5-4 10:45:17 http-nio-8080-exec-1 DEBUG <==    Updates: 1
+2018-5-4 10:45:53 http-nio-8080-exec-3 DEBUG ==>  Preparing: insert into t_user (user_id, user_name, password, phone) values (?, ?, ?, ?) 
+2018-5-4 10:45:53 http-nio-8080-exec-3 DEBUG ==> Parameters: null, 鸾小平(String), 123456(String), 15612998910(String)
+2018-5-4 10:45:53 http-nio-8080-exec-3 DEBUG <==    Updates: 1
+2018-5-4 11:03:08 http-nio-8080-exec-7 DEBUG ==>  Preparing: SELECT count(0) FROM t_user 
+2018-5-4 11:03:08 http-nio-8080-exec-7 DEBUG ==> Parameters: 
+2018-5-4 11:03:08 http-nio-8080-exec-7 DEBUG <==      Total: 1
+2018-5-4 11:03:08 http-nio-8080-exec-7 DEBUG ==>  Preparing: SELECT user_id, user_name, password, phone FROM t_user LIMIT 3 
+2018-5-4 11:03:08 http-nio-8080-exec-7 DEBUG ==> Parameters: 
+2018-5-4 11:03:08 http-nio-8080-exec-7 DEBUG <==      Total: 3
+2018-5-4 11:09:40 main INFO Starting DemoApplication on ZTES-PC with PID 21056 (D:\IdeaProjects\springbootMybatisDemo\target\classes started by ZTES in D:\IdeaProjects\springbootMybatisDemo)
+2018-5-4 11:09:40 main DEBUG Running with Spring Boot v1.5.12.RELEASE, Spring v4.3.16.RELEASE
+2018-5-4 11:09:40 main INFO No active profile set, falling back to default profiles: default
+2018-5-4 11:09:44 main INFO Started DemoApplication in 4.662 seconds (JVM running for 7.086)
+2018-5-4 11:11:13 main INFO Starting DemoApplication on ZTES-PC with PID 18656 (D:\IdeaProjects\springbootMybatisDemo\target\classes started by ZTES in D:\IdeaProjects\springbootMybatisDemo)
+2018-5-4 11:11:13 main DEBUG Running with Spring Boot v1.5.12.RELEASE, Spring v4.3.16.RELEASE
+2018-5-4 11:11:13 main INFO No active profile set, falling back to default profiles: default
+2018-5-4 11:11:16 main INFO Started DemoApplication in 3.521 seconds (JVM running for 4.955)
+2018-5-4 11:11:31 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT count(0) FROM t_user 
+2018-5-4 11:11:31 http-nio-8080-exec-2 DEBUG ==> Parameters: 
+2018-5-4 11:11:31 http-nio-8080-exec-2 DEBUG <==      Total: 1
+2018-5-4 11:11:31 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT user_id, user_name, password, phone FROM t_user LIMIT 3 
+2018-5-4 11:11:31 http-nio-8080-exec-2 DEBUG ==> Parameters: 
+2018-5-4 11:11:31 http-nio-8080-exec-2 DEBUG <==      Total: 3
+2018-5-4 11:14:51 main INFO Starting DemoApplication on ZTES-PC with PID 19864 (D:\IdeaProjects\springbootMybatisDemo\target\classes started by ZTES in D:\IdeaProjects\springbootMybatisDemo)
+2018-5-4 11:14:51 main DEBUG Running with Spring Boot v1.5.12.RELEASE, Spring v4.3.16.RELEASE
+2018-5-4 11:14:51 main INFO No active profile set, falling back to default profiles: default
+2018-5-4 11:14:55 main INFO Started DemoApplication in 4.298 seconds (JVM running for 6.654)
+2018-5-4 11:15:52 http-nio-8080-exec-3 DEBUG ==>  Preparing: SELECT count(0) FROM t_user 
+2018-5-4 11:15:52 http-nio-8080-exec-3 DEBUG ==> Parameters: 
+2018-5-4 11:15:52 http-nio-8080-exec-3 DEBUG <==      Total: 1
+2018-5-4 11:15:52 http-nio-8080-exec-3 DEBUG ==>  Preparing: SELECT user_id, user_name, password, phone FROM t_user LIMIT 3 
+2018-5-4 11:15:52 http-nio-8080-exec-3 DEBUG ==> Parameters: 
+2018-5-4 11:15:52 http-nio-8080-exec-3 DEBUG <==      Total: 3
+2018-5-4 11:18:28 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 11:18:28 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 11:18:29 main INFO Starting service [Tomcat]
+2018-5-4 11:18:29 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 11:18:29 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 11:18:29 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1270 ms
+2018-5-4 11:18:29 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d730606: startup date [Fri May 04 11:18:27 CST 2018]; root of context hierarchy
+2018-5-4 11:18:29 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 11:18:29 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 11:18:29 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 11:18:29 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 11:18:29 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 11:18:29 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 11:18:29 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 11:18:29 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 11:18:29 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 11:18:30 main INFO Registering beans for JMX exposure on startup
+2018-5-4 11:18:30 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 11:18:30 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 11:18:30 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 11:18:30 main INFO Using a shared selector for servlet write/read
+2018-5-4 11:18:34 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 11:18:34 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 11:18:34 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-5-4 11:18:34 http-nio-8080-exec-1 INFO {dataSource-1} inited
+2018-5-4 13:55:53 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 13:55:56 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 13:55:56 main INFO Starting service [Tomcat]
+2018-5-4 13:55:56 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 13:55:56 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 13:55:56 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 3832 ms
+2018-5-4 13:55:58 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@615091b8: startup date [Fri May 04 13:55:52 CST 2018]; root of context hierarchy
+2018-5-4 13:55:58 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 13:55:58 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 13:55:58 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 13:55:58 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 13:55:58 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 13:55:58 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 13:55:58 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 13:55:58 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 13:55:58 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 13:55:58 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 13:55:59 main INFO Registering beans for JMX exposure on startup
+2018-5-4 13:55:59 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 13:55:59 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 13:55:59 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 13:55:59 main INFO Using a shared selector for servlet write/read
+2018-5-4 13:56:09 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 13:56:09 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 13:56:09 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-5-4 14:06:41 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:06:52 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:06:52 main INFO Starting service [Tomcat]
+2018-5-4 14:06:52 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:06:53 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:06:53 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 12257 ms
+2018-5-4 14:06:57 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1852a3ff: startup date [Fri May 04 14:06:40 CST 2018]; root of context hierarchy
+2018-5-4 14:06:57 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:06:57 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:06:57 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:06:57 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:06:57 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:06:57 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:06:57 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:06:57 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:06:57 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:06:57 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:07:01 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:07:01 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:07:01 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:07:01 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:07:02 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:07:09 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:07:09 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:07:10 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 141 ms
+2018-5-4 14:09:15 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:09:19 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:09:19 main INFO Starting service [Tomcat]
+2018-5-4 14:09:19 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:09:19 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:09:19 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 4363 ms
+2018-5-4 14:09:20 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23fb172e: startup date [Fri May 04 14:09:15 CST 2018]; root of context hierarchy
+2018-5-4 14:09:20 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:09:20 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:09:20 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:09:20 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:09:20 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:09:20 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:09:20 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:09:20 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:09:20 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:09:21 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:09:21 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:09:21 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:09:21 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:09:21 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:09:21 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:12:25 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:12:26 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:12:26 main INFO Starting service [Tomcat]
+2018-5-4 14:12:26 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:12:26 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:12:26 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1354 ms
+2018-5-4 14:12:27 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53d102a2: startup date [Fri May 04 14:12:24 CST 2018]; root of context hierarchy
+2018-5-4 14:12:27 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:12:27 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:12:27 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:12:27 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:12:27 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:12:27 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:12:27 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:12:27 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:12:27 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:12:27 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:12:27 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:12:27 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:12:27 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:12:28 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:12:28 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:13:23 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:13:24 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:13:24 main INFO Starting service [Tomcat]
+2018-5-4 14:13:24 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:13:24 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:13:24 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1223 ms
+2018-5-4 14:13:25 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@615091b8: startup date [Fri May 04 14:13:23 CST 2018]; root of context hierarchy
+2018-5-4 14:13:25 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:13:25 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:13:25 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:13:25 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:13:25 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:13:25 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:13:25 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:13:25 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:13:25 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:13:25 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:13:26 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:13:26 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:13:26 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:13:26 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:13:26 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:14:07 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:14:07 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:14:07 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms
+2018-5-4 14:17:16 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:17:18 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:17:18 main INFO Starting service [Tomcat]
+2018-5-4 14:17:18 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:17:18 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:17:18 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 2678 ms
+2018-5-4 14:17:19 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1852a3ff: startup date [Fri May 04 14:17:15 CST 2018]; root of context hierarchy
+2018-5-4 14:17:21 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:17:21 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:17:21 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:17:21 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:17:21 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:17:21 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:17:21 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:17:21 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:17:21 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:17:21 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:17:24 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:17:24 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:17:24 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:17:24 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:17:24 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:17:33 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:17:33 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:17:33 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-5-4 14:23:07 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:23:09 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:23:09 main INFO Starting service [Tomcat]
+2018-5-4 14:23:09 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:23:09 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:23:09 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 2216 ms
+2018-5-4 14:23:10 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23fb172e: startup date [Fri May 04 14:23:07 CST 2018]; root of context hierarchy
+2018-5-4 14:23:11 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:23:11 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:23:11 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:23:11 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:23:11 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:23:11 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:23:11 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:23:11 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:23:11 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:23:11 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:23:15 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:23:15 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:23:15 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:23:15 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:23:15 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:23:20 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:23:20 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:23:20 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-5-4 14:23:43 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:23:44 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:23:44 main INFO Starting service [Tomcat]
+2018-5-4 14:23:44 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:23:44 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:23:44 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1238 ms
+2018-5-4 14:23:45 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4aa83f4f: startup date [Fri May 04 14:23:43 CST 2018]; root of context hierarchy
+2018-5-4 14:23:45 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:23:45 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:23:45 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:23:45 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:23:45 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:23:45 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:23:45 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:23:45 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:23:45 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:23:45 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:23:45 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:23:45 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:23:45 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:23:45 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:23:45 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:24:02 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:24:02 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:24:02 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-5-4 14:25:12 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:25:13 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:25:13 main INFO Starting service [Tomcat]
+2018-5-4 14:25:14 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:25:14 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:25:14 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1688 ms
+2018-5-4 14:25:14 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c45ee6e: startup date [Fri May 04 14:25:12 CST 2018]; root of context hierarchy
+2018-5-4 14:25:15 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:25:15 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:25:15 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:25:15 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:25:15 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:25:15 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:25:15 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:25:15 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:25:15 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:25:15 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:25:15 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:25:15 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:25:15 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:25:15 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:25:15 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:25:55 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:25:55 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:25:55 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2018-5-4 14:27:47 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:27:50 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:27:50 main INFO Starting service [Tomcat]
+2018-5-4 14:27:50 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:27:51 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:27:51 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 3834 ms
+2018-5-4 14:27:52 main INFO Stopping service [Tomcat]
+2018-5-4 14:27:52 localhost-startStop-1 WARN The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2018-5-4 14:28:49 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:28:50 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:28:50 main INFO Starting service [Tomcat]
+2018-5-4 14:28:50 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:28:51 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:28:51 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1597 ms
+2018-5-4 14:28:52 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4dc8caa7: startup date [Fri May 04 14:28:49 CST 2018]; root of context hierarchy
+2018-5-4 14:28:52 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:28:52 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:28:52 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:28:52 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:28:52 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:28:52 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:28:52 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:28:52 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:28:52 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:28:52 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:28:53 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:28:53 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:28:53 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:28:53 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:28:53 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:29:02 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:29:02 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:29:02 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 57 ms
+2018-5-4 14:29:44 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:29:45 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:29:45 main INFO Starting service [Tomcat]
+2018-5-4 14:29:45 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:29:46 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:29:46 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 2850 ms
+2018-5-4 14:29:46 main INFO Stopping service [Tomcat]
+2018-5-4 14:29:46 localhost-startStop-1 WARN The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2018-5-4 14:31:34 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:31:38 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:31:38 main INFO Starting service [Tomcat]
+2018-5-4 14:31:38 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:31:39 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:31:39 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 5330 ms
+2018-5-4 14:31:43 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a76840c: startup date [Fri May 04 14:31:34 CST 2018]; root of context hierarchy
+2018-5-4 14:31:43 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:31:43 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:31:43 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:31:43 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:31:43 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:31:43 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:31:43 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:31:44 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:31:44 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:31:44 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:31:44 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:31:44 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:31:44 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:31:45 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:31:45 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:32:05 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:32:05 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:32:05 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 79 ms
+2018-5-4 14:34:54 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:34:55 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:34:55 main INFO Starting service [Tomcat]
+2018-5-4 14:34:55 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:34:56 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:34:56 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 2157 ms
+2018-5-4 14:34:57 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23fb172e: startup date [Fri May 04 14:34:54 CST 2018]; root of context hierarchy
+2018-5-4 14:34:57 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:34:57 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:34:57 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:34:57 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:34:57 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:34:57 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:34:57 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:34:57 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:34:57 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:34:57 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:34:59 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:34:59 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:34:59 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:34:59 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:34:59 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:35:05 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:35:05 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:35:05 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-5-4 14:35:29 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:35:30 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:35:30 main INFO Starting service [Tomcat]
+2018-5-4 14:35:30 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:35:31 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:35:31 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1244 ms
+2018-5-4 14:35:31 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c45ee6e: startup date [Fri May 04 14:35:29 CST 2018]; root of context hierarchy
+2018-5-4 14:35:31 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:35:31 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:35:31 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:35:31 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:35:31 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:35:31 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:35:31 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:35:31 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:35:31 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:35:31 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:35:32 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:35:32 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:35:32 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:35:32 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:35:32 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:35:36 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:35:36 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:35:36 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-5-4 14:35:51 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:35:52 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:35:52 main INFO Starting service [Tomcat]
+2018-5-4 14:35:52 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:35:52 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:35:52 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1212 ms
+2018-5-4 14:35:53 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bfcafd: startup date [Fri May 04 14:35:51 CST 2018]; root of context hierarchy
+2018-5-4 14:35:53 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:35:53 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:35:53 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:35:53 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:35:53 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:35:53 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:35:53 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:35:53 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:35:53 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:35:53 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:35:53 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:35:53 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:35:53 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:35:53 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:35:53 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:35:57 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:35:57 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:35:57 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-5-4 14:39:46 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 14:39:48 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:39:48 main INFO Starting service [Tomcat]
+2018-5-4 14:39:48 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 14:39:48 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 14:39:48 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1543 ms
+2018-5-4 14:39:49 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@542e560f: startup date [Fri May 04 14:39:46 CST 2018]; root of context hierarchy
+2018-5-4 14:39:49 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 14:39:49 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 14:39:49 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 14:39:49 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 14:39:49 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 14:39:49 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 14:39:49 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 14:39:49 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:39:49 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:39:49 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 14:39:49 main INFO Registering beans for JMX exposure on startup
+2018-5-4 14:39:49 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 14:39:49 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 14:39:49 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 14:39:49 main INFO Using a shared selector for servlet write/read
+2018-5-4 14:39:53 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 14:39:53 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 14:39:53 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-5-4 15:15:31 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 15:15:35 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 15:15:35 main INFO Starting service [Tomcat]
+2018-5-4 15:15:35 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 15:15:35 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 15:15:35 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 3990 ms
+2018-5-4 15:15:37 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@443118b0: startup date [Fri May 04 15:15:31 CST 2018]; root of context hierarchy
+2018-5-4 15:15:37 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 15:15:37 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 15:15:37 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 15:15:37 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 15:15:37 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 15:15:37 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 15:15:37 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 15:15:37 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 15:15:37 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 15:15:37 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 15:15:37 main INFO Registering beans for JMX exposure on startup
+2018-5-4 15:15:37 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 15:15:37 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 15:15:37 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 15:15:37 main INFO Using a shared selector for servlet write/read
+2018-5-4 15:15:49 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 15:15:49 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 15:15:49 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 68 ms
+2018-5-4 17:00:40 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 17:00:44 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:00:44 main INFO Starting service [Tomcat]
+2018-5-4 17:00:44 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 17:00:45 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 17:00:45 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 3915 ms
+2018-5-4 17:00:47 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65fe9e33: startup date [Fri May 04 17:00:41 CST 2018]; root of context hierarchy
+2018-5-4 17:00:47 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 17:00:47 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 17:00:47 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 17:00:47 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 17:00:47 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 17:00:47 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 17:00:47 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 17:00:47 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:00:47 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:00:47 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:00:50 main INFO Registering beans for JMX exposure on startup
+2018-5-4 17:00:50 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 17:00:50 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 17:00:50 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:00:50 main INFO Using a shared selector for servlet write/read
+2018-5-4 17:02:39 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 17:02:39 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 17:02:39 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 133 ms
+2018-5-4 17:09:43 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 17:09:46 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:09:46 main INFO Starting service [Tomcat]
+2018-5-4 17:09:46 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 17:09:46 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 17:09:46 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 2186 ms
+2018-5-4 17:09:49 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1199fe66: startup date [Fri May 04 17:09:44 CST 2018]; root of context hierarchy
+2018-5-4 17:09:49 main INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-4 17:09:49 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 17:09:49 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 17:09:49 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 17:09:49 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 17:09:49 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 17:09:49 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 17:09:49 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 17:09:49 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:09:49 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:09:49 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:09:50 main INFO Registering beans for JMX exposure on startup
+2018-5-4 17:09:50 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 17:09:50 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 17:09:50 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:09:50 main INFO Using a shared selector for servlet write/read
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-5-4 17:10:02 http-nio-8080-exec-1 INFO [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-5-4 17:15:02 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 17:15:07 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:15:07 main INFO Starting service [Tomcat]
+2018-5-4 17:15:07 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 17:15:07 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 17:15:07 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 3379 ms
+2018-5-4 17:15:09 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65fe9e33: startup date [Fri May 04 17:15:04 CST 2018]; root of context hierarchy
+2018-5-4 17:15:10 main INFO Mapped "{[/learn/index]}" onto public java.lang.String com.ztes.controller.LearnTestController.index(org.springframework.ui.ModelMap)
+2018-5-4 17:15:10 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 17:15:10 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 17:15:10 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 17:15:10 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 17:15:10 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 17:15:10 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 17:15:10 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 17:15:10 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:15:10 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:15:10 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:15:11 main INFO Registering beans for JMX exposure on startup
+2018-5-4 17:15:11 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 17:15:11 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 17:15:11 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:15:11 main INFO Using a shared selector for servlet write/read
+2018-5-4 17:15:41 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 17:15:41 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 17:15:41 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-5-4 17:16:05 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 17:16:07 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:16:07 main INFO Starting service [Tomcat]
+2018-5-4 17:16:07 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 17:16:07 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 17:16:07 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1478 ms
+2018-5-4 17:16:08 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c5529ab: startup date [Fri May 04 17:16:06 CST 2018]; root of context hierarchy
+2018-5-4 17:16:08 main INFO Mapped "{[/learn/index]}" onto public java.lang.String com.ztes.controller.LearnTestController.index(org.springframework.ui.ModelMap)
+2018-5-4 17:16:08 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 17:16:08 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 17:16:08 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 17:16:08 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 17:16:08 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 17:16:08 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 17:16:08 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 17:16:08 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:16:08 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:16:08 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:16:09 main INFO Registering beans for JMX exposure on startup
+2018-5-4 17:16:09 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 17:16:09 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 17:16:09 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:16:09 main INFO Using a shared selector for servlet write/read
+2018-5-4 17:16:16 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 17:16:16 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 17:16:16 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-5-4 17:16:40 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 17:16:41 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:16:41 main INFO Starting service [Tomcat]
+2018-5-4 17:16:41 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 17:16:41 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 17:16:41 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1417 ms
+2018-5-4 17:16:42 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48d5f34e: startup date [Fri May 04 17:16:40 CST 2018]; root of context hierarchy
+2018-5-4 17:16:42 main INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-4 17:16:42 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 17:16:42 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 17:16:42 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 17:16:42 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 17:16:42 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 17:16:42 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 17:16:42 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 17:16:42 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:16:42 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:16:42 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:16:43 main INFO Registering beans for JMX exposure on startup
+2018-5-4 17:16:43 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 17:16:43 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 17:16:43 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:16:43 main INFO Using a shared selector for servlet write/read
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 71 ms
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-5-4 17:17:21 http-nio-8080-exec-1 INFO [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-5-4 17:35:12 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 17:35:16 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:35:17 main INFO Starting service [Tomcat]
+2018-5-4 17:35:17 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 17:35:17 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 17:35:17 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 3626 ms
+2018-5-4 17:35:18 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c550889: startup date [Fri May 04 17:35:13 CST 2018]; root of context hierarchy
+2018-5-4 17:35:19 main INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-4 17:35:19 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 17:35:19 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 17:35:19 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 17:35:19 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 17:35:19 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 17:35:19 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 17:35:19 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 17:35:19 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:35:19 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:35:19 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:35:20 main INFO Registering beans for JMX exposure on startup
+2018-5-4 17:35:20 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 17:35:20 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 17:35:20 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:35:20 main INFO Using a shared selector for servlet write/read
+2018-5-4 17:36:21 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 17:36:21 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 17:36:21 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 89 ms
+2018-5-4 17:54:35 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-4 17:54:39 main INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:54:39 main INFO Starting service [Tomcat]
+2018-5-4 17:54:39 main INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-4 17:54:40 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-4 17:54:40 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 4504 ms
+2018-5-4 17:54:42 main INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3a3e78f: startup date [Fri May 04 17:54:36 CST 2018]; root of context hierarchy
+2018-5-4 17:54:42 main INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-4 17:54:42 main INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-4 17:54:42 main INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-4 17:54:42 main INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-4 17:54:42 main INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-4 17:54:42 main INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-4 17:54:42 main INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-4 17:54:42 main INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-4 17:54:42 main INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:54:42 main INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:54:42 main INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-4 17:54:59 main INFO Registering beans for JMX exposure on startup
+2018-5-4 17:54:59 main INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-4 17:54:59 main INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-4 17:55:00 main INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-4 17:55:00 main INFO Using a shared selector for servlet write/read
+2018-5-4 17:55:18 http-nio-8080-exec-3 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-4 17:55:18 http-nio-8080-exec-3 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-4 17:55:18 http-nio-8080-exec-3 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
