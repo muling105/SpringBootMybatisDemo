@@ -48,6 +48,11 @@ public class UserController {
                         : ResultUtil.error(0, "用户不存在！");
     }
 
+    @RequestMapping("/selectTow")
+    public BackResult selectTwo(int userId) throws Exception{
+        return userService.selectTwo(userId);
+    }
+
     @RequestMapping("/exceptionName")
     public void exceptionName(int userId) throws Exception{
         userService.exceptionName(userId);

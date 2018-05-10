@@ -733,3 +733,145 @@
 2018-5-10 10:47:36 http-nio-8080-exec-2 INFO {dataSource-1} inited
 2018-5-10 10:47:36 http-nio-8080-exec-2 WARN Resolved exception caused by Handler execution: com.ztes.common.exception.UserException: 139号段
 2018-5-10 10:47:44 http-nio-8080-exec-3 WARN Resolved exception caused by Handler execution: java.lang.NullPointerException
+2018-5-10 10:57:44 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-10 10:57:48 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-10 10:57:48 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-10 10:57:48 restartedMain INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-5-10 10:57:49 restartedMain INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39bb8d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:57:49 restartedMain INFO Bean 'redisConfiguration' of type [com.ztes.common.RedisConfiguration$$EnhancerBySpringCGLIB$$accb291f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:57:49 restartedMain INFO Bean 'errorHandler' of type [com.ztes.common.RedisConfiguration$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:57:49 restartedMain INFO Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$4cadeef3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:57:51 restartedMain INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-10 10:57:51 restartedMain INFO Starting service [Tomcat]
+2018-5-10 10:57:51 restartedMain INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-10 10:57:51 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-10 10:57:51 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 6336 ms
+2018-5-10 10:57:53 restartedMain WARN 通用 Mapper 警告信息: <[EntityColumn{table=learn_course, property='id', column='id', javaType=int, jdbcType=null, typeHandler=null, id=true, identity=false, blob=false, generator='null', orderBy='null', insertable=true, updatable=true, order=DEFAULT}]> 使用了基本类型，基本类型在动态 SQL 中由于存在默认值，因此任何时候都不等于 null，建议修改基本类型为对应的包装类型!
+2018-5-10 10:57:54 restartedMain INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c49b3f: startup date [Thu May 10 10:57:45 CST 2018]; root of context hierarchy
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/comm/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.CommController.index()
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/learnCourse/update]}" onto public int com.ztes.controller.LearnCourseController.update(com.ztes.pojo.LearnCourse)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/learnCourse/delete]}" onto public int com.ztes.controller.LearnCourseController.delete(int)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/learnCourse/saveBean]}" onto public int com.ztes.controller.LearnCourseController.saveBean(com.ztes.pojo.LearnCourse)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/learnCourse/selectOne]}" onto public java.lang.String com.ztes.controller.LearnCourseController.selectOne(int)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/selectOne]}" onto public com.ztes.common.BackResult<com.ztes.pojo.User> com.ztes.controller.UserController.selectOne(int)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/exceptionName]}" onto public void com.ztes.controller.UserController.exceptionName(int) throws java.lang.Exception
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-10 10:57:54 restartedMain INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-10 10:57:54 restartedMain INFO Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-5-10 10:57:54 restartedMain INFO Mapped URL path [/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:57:54 restartedMain INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:57:54 restartedMain INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:57:54 restartedMain INFO Detected @ExceptionHandler methods in exceptionHandle
+2018-5-10 10:57:54 restartedMain INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:57:56 restartedMain INFO Registering beans for JMX exposure on startup
+2018-5-10 10:57:56 restartedMain INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-10 10:57:56 restartedMain INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-10 10:57:56 restartedMain INFO No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-5-10 10:57:56 restartedMain INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-10 10:57:56 restartedMain INFO Using a shared selector for servlet write/read
+2018-5-10 10:58:13 http-nio-8080-exec-2 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-10 10:58:13 http-nio-8080-exec-2 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-10 10:58:13 http-nio-8080-exec-2 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-5-10 10:58:39 Thread-36 INFO Unregistering JMX-exposed beans on shutdown
+2018-5-10 10:58:39 Thread-36 INFO Unregistering JMX-exposed beans
+2018-5-10 10:58:43 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-10 10:58:43 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-10 10:58:43 restartedMain INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-5-10 10:58:43 restartedMain INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39bb8d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:58:43 restartedMain INFO Bean 'redisConfiguration' of type [com.ztes.common.RedisConfiguration$$EnhancerBySpringCGLIB$$accb291f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:58:43 restartedMain INFO Bean 'errorHandler' of type [com.ztes.common.RedisConfiguration$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:58:43 restartedMain INFO Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$4cadeef3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 10:58:43 restartedMain INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-10 10:58:43 restartedMain INFO Starting service [Tomcat]
+2018-5-10 10:58:43 restartedMain INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-10 10:58:44 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-10 10:58:44 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 1036 ms
+2018-5-10 10:58:44 restartedMain WARN 通用 Mapper 警告信息: <[EntityColumn{table=learn_course, property='id', column='id', javaType=int, jdbcType=null, typeHandler=null, id=true, identity=false, blob=false, generator='null', orderBy='null', insertable=true, updatable=true, order=DEFAULT}]> 使用了基本类型，基本类型在动态 SQL 中由于存在默认值，因此任何时候都不等于 null，建议修改基本类型为对应的包装类型!
+2018-5-10 10:58:44 restartedMain INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b16ff6b: startup date [Thu May 10 10:58:43 CST 2018]; root of context hierarchy
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/comm/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.CommController.index()
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/learnCourse/update]}" onto public int com.ztes.controller.LearnCourseController.update(com.ztes.pojo.LearnCourse)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/learnCourse/delete]}" onto public int com.ztes.controller.LearnCourseController.delete(int)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/learnCourse/saveBean]}" onto public int com.ztes.controller.LearnCourseController.saveBean(com.ztes.pojo.LearnCourse)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/learnCourse/selectOne]}" onto public java.lang.String com.ztes.controller.LearnCourseController.selectOne(int)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/selectOne]}" onto public com.ztes.common.BackResult<com.ztes.pojo.User> com.ztes.controller.UserController.selectOne(int)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/selectTow]}" onto public java.lang.String com.ztes.controller.UserController.selectTwo(int) throws java.lang.Exception
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/exceptionName]}" onto public void com.ztes.controller.UserController.exceptionName(int) throws java.lang.Exception
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-10 10:58:44 restartedMain INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-10 10:58:44 restartedMain INFO Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-5-10 10:58:44 restartedMain INFO Mapped URL path [/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:58:44 restartedMain INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:58:44 restartedMain INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:58:44 restartedMain INFO Detected @ExceptionHandler methods in exceptionHandle
+2018-5-10 10:58:44 restartedMain INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 10:58:45 restartedMain INFO Registering beans for JMX exposure on startup
+2018-5-10 10:58:45 restartedMain INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-10 10:58:45 restartedMain INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-10 10:58:45 restartedMain INFO No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-5-10 10:58:45 restartedMain INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-10 10:58:45 restartedMain INFO Using a shared selector for servlet write/read
+2018-5-10 10:58:48 http-nio-8080-exec-10 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-10 10:58:48 http-nio-8080-exec-10 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-10 10:58:48 http-nio-8080-exec-10 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2018-5-10 10:58:59 http-nio-8080-exec-4 INFO {dataSource-1} inited
+2018-5-10 10:59:14 http-nio-8080-exec-9 WARN Resolved exception caused by Handler execution: java.lang.NullPointerException
+2018-5-10 11:01:08 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-10 11:01:09 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-10 11:01:09 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-10 11:01:09 restartedMain INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-5-10 11:01:10 restartedMain INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$548cf937] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 11:01:10 restartedMain INFO Bean 'redisConfiguration' of type [com.ztes.common.RedisConfiguration$$EnhancerBySpringCGLIB$$fdbc6981] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 11:01:10 restartedMain INFO Bean 'errorHandler' of type [com.ztes.common.RedisConfiguration$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 11:01:10 restartedMain INFO Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$9d9f2f55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-10 11:01:10 restartedMain INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-10 11:01:10 restartedMain INFO Starting service [Tomcat]
+2018-5-10 11:01:10 restartedMain INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-10 11:01:10 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-10 11:01:10 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 2108 ms
+2018-5-10 11:01:11 restartedMain WARN 通用 Mapper 警告信息: <[EntityColumn{table=learn_course, property='id', column='id', javaType=int, jdbcType=null, typeHandler=null, id=true, identity=false, blob=false, generator='null', orderBy='null', insertable=true, updatable=true, order=DEFAULT}]> 使用了基本类型，基本类型在动态 SQL 中由于存在默认值，因此任何时候都不等于 null，建议修改基本类型为对应的包装类型!
+2018-5-10 11:01:12 restartedMain INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@352eae21: startup date [Thu May 10 11:01:08 CST 2018]; root of context hierarchy
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/comm/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.CommController.index()
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/learnCourse/update]}" onto public int com.ztes.controller.LearnCourseController.update(com.ztes.pojo.LearnCourse)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/learnCourse/delete]}" onto public int com.ztes.controller.LearnCourseController.delete(int)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/learnCourse/saveBean]}" onto public int com.ztes.controller.LearnCourseController.saveBean(com.ztes.pojo.LearnCourse)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/learnCourse/selectOne]}" onto public java.lang.String com.ztes.controller.LearnCourseController.selectOne(int)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/selectOne]}" onto public com.ztes.common.BackResult<com.ztes.pojo.User> com.ztes.controller.UserController.selectOne(int)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/selectTow]}" onto public com.ztes.common.BackResult com.ztes.controller.UserController.selectTwo(int) throws java.lang.Exception
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/exceptionName]}" onto public void com.ztes.controller.UserController.exceptionName(int) throws java.lang.Exception
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-10 11:01:12 restartedMain INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-10 11:01:12 restartedMain INFO Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-5-10 11:01:12 restartedMain INFO Mapped URL path [/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 11:01:12 restartedMain INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 11:01:12 restartedMain INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 11:01:12 restartedMain INFO Detected @ExceptionHandler methods in exceptionHandle
+2018-5-10 11:01:12 restartedMain INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-10 11:01:13 restartedMain INFO Registering beans for JMX exposure on startup
+2018-5-10 11:01:13 restartedMain INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-10 11:01:13 restartedMain INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-10 11:01:13 restartedMain INFO No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-5-10 11:01:13 restartedMain INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-10 11:01:13 restartedMain INFO Using a shared selector for servlet write/read
+2018-5-10 11:01:18 http-nio-8080-exec-1 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-10 11:01:18 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-10 11:01:18 http-nio-8080-exec-1 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2018-5-10 11:01:18 http-nio-8080-exec-1 INFO {dataSource-1} inited
+2018-5-10 11:01:18 http-nio-8080-exec-1 WARN Resolved exception caused by Handler execution: java.lang.NullPointerException

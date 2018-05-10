@@ -47,7 +47,11 @@ public class BackResult<T> {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "BackResult{" +
+                "code=" + code +
+                ", msg='" + msg + '\'' +
+                ", result=" + result +
+                '}';
     }
 }
 

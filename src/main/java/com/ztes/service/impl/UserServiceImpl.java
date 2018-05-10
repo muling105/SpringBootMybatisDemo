@@ -1,6 +1,8 @@
 package com.ztes.service.impl;
 
 import com.github.pagehelper.PageHelper;
+import com.ztes.common.BackResult;
+import com.ztes.common.ResultUtil;
 import com.ztes.common.enums.ResultEnum;
 import com.ztes.common.exception.UserException;
 import com.ztes.mapper.UserMapper;
@@ -48,6 +50,11 @@ public class UserServiceImpl implements UserService{
         }else {
             throw new UserException(ResultEnum.OTHER_ERROR);
         }
+    }
+
+    public BackResult selectTwo(Integer userId) throws Exception{
+        User user = userMapper.selectByPrimaryKey(userId);
+        return ResultUtil.success(user.toString());
     }
 
     @Transactional
