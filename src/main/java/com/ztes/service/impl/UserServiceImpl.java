@@ -1,6 +1,8 @@
 package com.ztes.service.impl;
 
 import com.github.pagehelper.PageHelper;
+import com.ztes.common.enums.ResultEnum;
+import com.ztes.common.exception.UserException;
 import com.ztes.mapper.UserMapper;
 import com.ztes.pojo.User;
 import com.ztes.service.UserService;
@@ -34,6 +36,18 @@ public class UserServiceImpl implements UserService{
         PageHelper.startPage(pageNum, pageSize);
         List<User> list = userMapper.selectAll();
         return list;
+    }
+
+    public void exceptionName(int userId) throws Exception{
+        User user = userMapper.selectByPrimaryKey(userId);
+        String prePhone = user.getPhone().substring(0, 3);
+        if(prePhone.contains("139")){
+            throw new UserException(ResultEnum.ONE_ERROR);
+        }else if(prePhone.contains("156")){
+            throw new UserException(ResultEnum.TWO_ERROR);
+        }else {
+            throw new UserException(ResultEnum.OTHER_ERROR);
+        }
     }
 
     @Transactional

@@ -14,6 +14,8 @@ public interface UserService {
 
     List<User> selectAll(int pageNum, int pageSize);
 
+    void exceptionName(int userId) throws Exception;
+
     String testRran(User user);
 
 }

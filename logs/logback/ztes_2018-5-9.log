@@ -1,0 +1,98 @@
+2018-5-9 11:47:01 background-preinit INFO HV000001: Hibernate Validator 5.3.6.Final
+2018-5-9 11:47:05 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-9 11:47:05 restartedMain WARN No MyBatis mapper was found in '[com.ztes]' package. Please check your configuration.
+2018-5-9 11:47:06 restartedMain INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-5-9 11:47:07 restartedMain INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f97569d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-9 11:47:07 restartedMain INFO Bean 'redisConfiguration' of type [com.ztes.common.RedisConfiguration$$EnhancerBySpringCGLIB$$a2a4da22] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-9 11:47:07 restartedMain INFO Bean 'errorHandler' of type [com.ztes.common.RedisConfiguration$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-9 11:47:07 restartedMain INFO Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$42879ff6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-5-9 11:47:11 restartedMain INFO Initializing ProtocolHandler ["http-nio-8080"]
+2018-5-9 11:47:11 restartedMain INFO Starting service [Tomcat]
+2018-5-9 11:47:11 restartedMain INFO Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-5-9 11:47:12 localhost-startStop-1 INFO Initializing Spring embedded WebApplicationContext
+2018-5-9 11:47:12 localhost-startStop-1 INFO Root WebApplicationContext: initialization completed in 10403 ms
+2018-5-9 11:47:16 restartedMain WARN 通用 Mapper 警告信息: <[EntityColumn{table=learn_course, property='id', column='id', javaType=int, jdbcType=null, typeHandler=null, id=true, identity=false, blob=false, generator='null', orderBy='null', insertable=true, updatable=true, order=DEFAULT}]> 使用了基本类型，基本类型在动态 SQL 中由于存在默认值，因此任何时候都不等于 null，建议修改基本类型为对应的包装类型!
+2018-5-9 11:47:17 restartedMain INFO Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a2d4cad: startup date [Wed May 09 11:47:02 CST 2018]; root of context hierarchy
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/comm/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.CommController.index()
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/learnCourse/update]}" onto public int com.ztes.controller.LearnCourseController.update(com.ztes.pojo.LearnCourse)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/learnCourse/delete]}" onto public int com.ztes.controller.LearnCourseController.delete(int)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/learnCourse/saveBean]}" onto public int com.ztes.controller.LearnCourseController.saveBean(com.ztes.pojo.LearnCourse)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/learnCourse/selectOne]}" onto public java.lang.String com.ztes.controller.LearnCourseController.selectOne(int)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/learn/index]}" onto public org.springframework.web.servlet.ModelAndView com.ztes.controller.LearnTestController.index()
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/add]}" onto public int com.ztes.controller.UserController.add(com.ztes.pojo.User)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/select]}" onto public com.ztes.pojo.User com.ztes.controller.UserController.select(int)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/testConfig]}" onto public java.lang.String com.ztes.controller.UserController.testConfig()
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/selectAll]}" onto public java.util.List<com.ztes.pojo.User> com.ztes.controller.UserController.selectAll(int,int)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/testTran]}" onto public java.lang.String com.ztes.controller.UserController.testTran()
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-5-9 11:47:17 restartedMain INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-5-9 11:47:17 restartedMain INFO Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-5-9 11:47:17 restartedMain INFO Mapped URL path [/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-9 11:47:17 restartedMain INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-9 11:47:17 restartedMain INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-9 11:47:18 restartedMain INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-5-9 11:47:46 restartedMain INFO Registering beans for JMX exposure on startup
+2018-5-9 11:47:46 restartedMain INFO Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-5-9 11:47:46 restartedMain INFO Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-5-9 11:47:46 restartedMain INFO No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-5-9 11:47:46 restartedMain INFO Starting ProtocolHandler ["http-nio-8080"]
+2018-5-9 11:47:47 restartedMain INFO Using a shared selector for servlet write/read
+2018-5-9 11:48:53 http-nio-8080-exec-2 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-5-9 11:48:53 http-nio-8080-exec-2 INFO FrameworkServlet 'dispatcherServlet': initialization started
+2018-5-9 11:48:53 http-nio-8080-exec-2 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 157 ms
+2018-5-9 11:48:55 http-nio-8080-exec-2 INFO {dataSource-1} inited
+2018-5-9 11:49:08 http-nio-8080-exec-10 ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Optional int parameter 'pageSize' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.] with root cause
+java.lang.IllegalStateException: Optional int parameter 'pageSize' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleNullValue(AbstractNamedValueMethodArgumentResolver.java:238)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:111)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)

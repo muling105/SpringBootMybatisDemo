@@ -1,5 +1,7 @@
 package com.ztes.controller;
 
+import com.ztes.common.BackResult;
+import com.ztes.common.ResultUtil;
 import com.ztes.pojo.ConfigTestBean;
 import com.ztes.pojo.User;
 import com.ztes.service.UserService;
@@ -37,6 +39,18 @@ public class UserController {
     @RequestMapping("/select")
     public User select(int userId){
         return userService.selectByPrimaryKey(userId);
+    }
+
+    @RequestMapping("/selectOne")
+    public BackResult<User> selectOne(int userId){
+        User user = userService.selectByPrimaryKey(userId);
+        return user != null ? ResultUtil.success(user)
+                        : ResultUtil.error(0, "用户不存在！");
+    }
+
+    @RequestMapping("/exceptionName")
+    public void exceptionName(int userId) throws Exception{
+        userService.exceptionName(userId);
     }
 
     @RequestMapping("/selectAll")
